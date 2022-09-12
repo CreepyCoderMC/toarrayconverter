@@ -1,0 +1,42 @@
+{
+
+  "type":         "module",
+  "name":         "@teamcoder/toarrayconverter",
+  "version":      "1.0.0",
+  "description":  "This module is small but easy to use. The purpose of this module is to check if a value is a array but if it is not an array it will convert the value into an array.",
+  "main":         "toarrayconverter.js",
+
+  "keywords": [
+                  "value",
+                  "array",
+                  "convert",
+                  "number",
+                  "string",
+                  "boolean",
+                  "null",
+                  "objecy",
+                  "node.js",
+                  "javascript"
+  ],
+
+  "author":       "CreepyCoderMC",
+  "license":      "CC-BY-NC-ND-4.0",
+  "homepage":     "https://github.com/CreepyCoderMC",
+  "url":          "https://github.com/CreepyCoderMC/toarrayconverter/issues",
+  "email":        "creepycodermc@gmail.com",
+
+  "funding": {
+  "type":         "PayPal Donation",
+  "url":          "https://www.paypal.com/donate/?hosted_button_id=NNPJXD2CLSXRA"
+  },
+
+  "repository": {
+  "type":         "git",  
+  "url":          "https://github.com/CreepyCoderMC/toarrayconverter"
+  },
+
+  "scripts": {
+  "test":         "node test.js"
+  }
+
+}
