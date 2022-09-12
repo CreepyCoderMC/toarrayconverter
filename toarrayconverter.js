@@ -228,15 +228,16 @@
  /*     VERSION HISTORY
   *
   *     1.0.0       12 September 2022           Official first release
+  *     1.0.1       12 September 2022           toarrayconverter.js fixed
   */
 
  /* Validates if a target value is bigger than the source
-  * @param  { Any   } source  The source value to turned in to an array
+  * @param  { Any   }  value  The source value to turned in to an array
   * 
   * @return { Array }         Return new array or array if already an array
   */
 
-export function convertToArray ( source ) {
+export function convertToArray ( value ) {
 
     if( Array.isArray( value ) )        { return value     }
     else                                { return [ value ] }
