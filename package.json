@@ -2,7 +2,7 @@
 
   "type":         "module",
   "name":         "@teamcoder/toarrayconverter",
-  "version":      "1.0.1",
+  "version":      "1.0.2",
   "description":  "This module is small but easy to use. The purpose of this module is to check if a value is a array but if it is not an array it will convert the value into an array.",
   "main":         "toarrayconverter.js",
 

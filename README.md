@@ -5,7 +5,7 @@ The code checks if the value passed is any array, if not it will create an array
 ## Code sample
 This following code is actually how I tested that all methods correctly functioned as intended, is also provided in this module.
 ```
-import { convertToArray } from '/@teamcoder/toarrayconverter';
+import { convertToArray } from '@teamcoder/toarrayconverter';
 
 console.log( "Testing Condition  1 Passed = " + Array.isArray( convertToArray ( "Hallo World") ) );
 console.log( "Testing Condition  2 Passed = " + Array.isArray( convertToArray ( [ "Hallo" , "World" ] ) ) );
@@ -41,6 +41,7 @@ import { convertToArray } from '@teamcoder/toarrayconverter';
 |----------|------------------------|-------------------------------------------------------------------------------------------------------|
 | 1.0.0    | 12 September 2022      | Official first release                                                                                |
 | 1.0.1    | 12 September 2022      | toarrayconverter.js fixed                                                                             |
+| 1.0.2    | 12 September 2022      | test.js fixed                                                                                         |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i /@teamcoder/toarrayconverter

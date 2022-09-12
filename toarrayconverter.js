@@ -229,6 +229,7 @@
   *
   *     1.0.0       12 September 2022           Official first release
   *     1.0.1       12 September 2022           toarrayconverter.js fixed
+  *     1.0.2       12 September 2022           test.js fixed
   */
 
  /* Validates if a target value is bigger than the source
